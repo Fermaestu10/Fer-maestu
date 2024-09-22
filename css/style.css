@@ -43,7 +43,7 @@ a  {
 
 
 #footer {
-    width: 1920px;
+    width: 100vw;
     height: auto;
     background-color: white;
     display: flex;
