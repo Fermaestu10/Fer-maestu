@@ -1,0 +1,62 @@
+.navBar  {
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    margin: 2% 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.navBarmenu   {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    border: 2px black solid; 
+    padding: 1px 5% 1px 5% orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2% 10%;
+    animation-fill-mode: forwards;
+
+
+
+
+}
+
+
+.navBarmenu :nth-child(5) a:hover {
+    color: yellow;
+}
+.navBarmenu :nth-child(4) a:hover {
+    color: red;
+}
+
+.navBarmenu :nth-child(1) a:hover {
+    color: orange;
+}
+
+.navBarmenu :nth-child(3) a:hover {
+    color: pink;
+}
+
+.navBarmenu :nth-child(2) a:hover {
+    color: blue;
+}
+
+.footerRedes .fa-brands {
+    font-size: 25px;
+    margin-left: 10px;
+    color: black;
+    border: 2px black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.navbarmenu a:hover {
+    padding-bottom: 5px;
+    margin-right: 5px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 15px 6px black;
+    transition: 2s;
+}

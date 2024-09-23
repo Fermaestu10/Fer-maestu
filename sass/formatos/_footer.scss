@@ -1,0 +1,147 @@
+#footer {
+    width: 1920px;
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+
+
+}
+
+.footer_logo img {
+    width: 200px;
+    height: 90px;
+    margin: 2% 10%;
+    filter: drop-shadow(15px 10px 3px orange);
+}
+
+.footer_links {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid; 
+    padding: 3px 6% 3px 6%;
+
+
+
+
+
+
+}
+
+.footer_links :nth-child(4) a:hover {
+    color: red;
+}
+
+.footer_links :nth-child(1) a:hover {
+    color: orange;
+}
+
+.footer_links :nth-child(2) a:hover {
+    color: blue;
+}
+
+.footer_links :nth-child(3) a:hover {
+    color: pink;
+}
+
+.footer_links :nth-child(5) a:hover {
+    color: yellow;
+}
+
+.footerRedes a:hover {
+    filter: drop-shadow(10px 5px 3px orange);
+    margin-bottom: 5px;
+    transition: 1.5s;
+    display: flex;
+
+
+}
+
+#footercontacto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+
+}
+
+.footer_links1  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    padding: 1px 5% 1px 5%;
+    font-weight: bold;
+    align-items: center;
+}
+
+#footer_producto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+
+#footerlinks_catalogo {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+.footer_linkscatalogo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    padding: 1px 5% 1px 5%;
+    font-weight: bold;
+    align-items: center;
+    }
+    .footerRedes a:hover {
+        filter: drop-shadow(10px 5px 3px orange);
+        margin-bottom: 5px;
+        transition: 1.5s;
+        display: flex;
+    }
+    .footer_linkscontacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 2px black solid;
+        padding: 1px 5% 1px 5%;
+        font-weight: bold;
+        align-items: center;
+    
+    }
