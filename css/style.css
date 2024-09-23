@@ -1,511 +1,432 @@
-body {
-    background-color: white solid   ;
-    max-width: 1920px;
-    height: 1080px;
-    align-items: center;
+sbody {
+  background-color: white solid;
+  max-width: 1920px;
+  height: 1080px;
+  align-items: center;
 }
 
 /*fomateo de doc*/
-*{
-    
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-style: none;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-style: none;
+  text-decoration: none;
 }
 
 ul, li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
-
-a  {
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 
 #main {
-    
-    
-    width: 100%;
-   
+  width: 100%;
 }
 
-
-
-.img_logo  {
-    
-    width: 200px;
-    height: 90px;
-    filter: drop-shadow(15px 10px 3px orange);
+.img_logo {
+  width: 200px;
+  height: 90px;
+  filter: drop-shadow(15px 10px 3px orange);
 }
-
 
 #footer {
-    width: 100vw;
-    height: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    margin-top: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    
-    
+  width: 1920px;
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
 
 .footer_logo img {
-    width: 200px;
-    height: 90px;
-    margin: 2% 10%;
-    filter: drop-shadow(15px 10px 3px orange);
+  width: 200px;
+  height: 90px;
+  margin: 2% 10%;
+  filter: drop-shadow(15px 10px 3px orange);
 }
 
 .footer_links {
-    display: flex;
-    color: black;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 2px black solid; 
-    padding: 3px 6% 3px 6%;
-  
-
-    
-    
-   
-    
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px black solid;
+  padding: 3px 6% 3px 6%;
 }
 
 .footer_links :nth-child(4) a:hover {
-    color: red;
+  color: red;
 }
 
 .footer_links :nth-child(1) a:hover {
-    color: orange;
+  color: orange;
 }
 
 .footer_links :nth-child(2) a:hover {
-    color: blue;
+  color: blue;
 }
 
 .footer_links :nth-child(3) a:hover {
-    color: pink;
+  color: pink;
 }
 
 .footer_links :nth-child(5) a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 .footerRedes a:hover {
-    filter: drop-shadow(10px 5px 3px orange);
-    margin-bottom: 5px;
-    transition: 1.5s;
-    display: flex;
-    
-
+  filter: drop-shadow(10px 5px 3px orange);
+  margin-bottom: 5px;
+  transition: 1.5s;
+  display: flex;
 }
 
-
-.navBar  {
-    display: flex;
-    text-align: right;
-    justify-content: space-evenly;
-    margin: 2% 10%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    
+.navBar {
+  display: flex;
+  text-align: right;
+  justify-content: space-evenly;
+  margin: 2% 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.navBarmenu   {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 50%;
-    border: 2px black solid; 
-    padding: 1px 5% 1px 5% orange;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 2% 10%;
-    animation-fill-mode: forwards;
-    
-    
-   
-    
+.navBarmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  border: 2px black solid;
+  padding: 1px 5% 1px 5% orange;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 2% 10%;
+  animation-fill-mode: forwards;
 }
-
 
 .navBarmenu :nth-child(5) a:hover {
-    color: yellow;
+  color: yellow;
 }
+
 .navBarmenu :nth-child(4) a:hover {
-    color: red;
+  color: red;
 }
 
 .navBarmenu :nth-child(1) a:hover {
-    color: orange;
+  color: orange;
 }
 
 .navBarmenu :nth-child(3) a:hover {
-    color: pink;
+  color: pink;
 }
 
 .navBarmenu :nth-child(2) a:hover {
-    color: blue;
+  color: blue;
 }
 
 .footerRedes .fa-brands {
-    font-size: 25px;
-    margin-left: 10px;
-    color: black;
-    border: 2px black;
-    border-radius: 100%;
-    padding: 20px;
+  font-size: 25px;
+  margin-left: 10px;
+  color: black;
+  border: 2px black;
+  border-radius: 100%;
+  padding: 20px;
 }
 
 .navbarmenu a:hover {
-    padding-bottom: 5px;
-    margin-right: 5px; 
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 15px 6px black;
-    transition: 2s;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 15px 6px black;
+  transition: 2s;
 }
 
- 
 .bannerIMG {
-    width: 100%;
-    height: 60vh;
-    position: relative;
+  width: 100%;
+  height: 60vh;
+  position: relative;
 }
-
 
 #Imagenes .img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-#maincontacto  {
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 50px;
-    margin-top: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
+#maincontacto {
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 50px;
+  margin-top: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
-
-
 
 .contacto-contacto_map {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    border: 0px black solid; 
-    padding-right: 15px;
-    padding-bottom: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 2% 10%;
-    animation-fill-mode: forwards;
-
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  border: 0px black solid;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 2% 10%;
+  animation-fill-mode: forwards;
 }
 
 .Contacto-contacto_2 {
-   
-    display: flex;
-    align-items: center;
-    width: 50%;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
 }
 
-
-
-
-
-.contacto-contacto_1  {
-    width: auto;
-    height: auto;
-    align-items: center;
-    padding: 10px;
-    border: 2px;
+.contacto-contacto_1 {
+  width: auto;
+  height: auto;
+  align-items: center;
+  padding: 10px;
+  border: 2px;
 }
 
 .footer_linkscontacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 2px black solid;
-    padding: 1px 5% 1px 5%;
-    font-weight: bold;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px black solid;
+  padding: 1px 5% 1px 5%;
+  font-weight: bold;
+  align-items: center;
 }
-
 
 #footercontacto {
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    margin-top: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
 
-@media screen and (max-width: 770px)
-{
-
-}
 /*producto*/
 #imagenes {
-
-padding-top: 100px;
-align-items: center;
-height: 100vh;
-width: 800px;
-margin: 0px auto;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-areas: 
-
-""
-
-        /*COL 1  COL 2  COL 3  COL 4  COL 5*/
-/*fila1*/"img1    img2  img2   img2    img3"
-/*fila2*/"img1    img2  img2   img3    img3"
-/*fila3*/"img1    img2  img2   img3    img3"
-;
-column-gap: 70;
-row-gap: 20px;
-
-justify-items: center;
-align-items: center;
+  padding-top: 100px;
+  align-items: center;
+  height: 100vh;
+  width: 800px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "" "img1    img2  img2   img2    img3" "img1    img2  img2   img3    img3" "img1    img2  img2   img3    img3";
+  column-gap: 70;
+  row-gap: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 .img1 {
-grid-area: krosty;
+  grid-area: krosty;
 }
 
 .img2 {
-grid-area: img2;
+  grid-area: img2;
 }
 
 .img3 {
-grid-area: homero;
+  grid-area: homero;
 }
 
 .img4 {
-    grid-area: bart;
+  grid-area: bart;
 }
 
 #imagenes img {
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(10px);
-    background-color: black;
-    border-radius: 12px;
-    border: 2px solid;
-    transition: 1s;
-    
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-color: black;
+  border-radius: 12px;
+  border: 2px solid;
+  transition: 1s;
 }
 
-#imagenes  img:hover {
-    margin-bottom: 20px;
-    margin-right: 30px;
-    transition: 1s;
+#imagenes img:hover {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  transition: 1s;
 }
 
 #imagenes .img1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 100%;
-    height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
 }
 
 #imagenes .img2 {
-    grid-column: 2/5;
-    grid-row: 1/2;
-    width: 100%;
-    height: 100%;
+  grid-column: 2/5;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
 }
 
 #imagenes .img3 {
-    grid-column: 5/5;
-    grid-row: 1/2;
-    width: 100%;
-    height: 100%;
+  grid-column: 5/5;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
 }
 
 #imagenes .img4 {
-    grid-column: 2/3;
-    grid-row: 2/2;
-    width: 100%;
-    height: 100%;
+  grid-column: 2/3;
+  grid-row: 2/2;
+  width: 100%;
+  height: 100%;
 }
 
 #imagenes img :nth-child(3) a:hover {
-    color: blue;
+  color: blue;
 }
 
-.footer_links1  {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 2px black solid;
-    padding: 1px 5% 1px 5%;
-    font-weight: bold;
-    align-items: center;
+.footer_links1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px black solid;
+  padding: 1px 5% 1px 5%;
+  font-weight: bold;
+  align-items: center;
 }
 
 #footer_producto {
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    margin-top: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
 
 #maincomocomprar {
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    justify-content: space-around;
-    padding: 20px 0;
-    margin-top: auto;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .Compraa {
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
-    margin-top: auto;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 
 #Maincatalogo {
-
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    justify-content: space-around;
-    padding: 20px 0;
-    margin-top: auto;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-
-
-
 #footerlinks_catalogo {
-    width: 1920px;
-    height: auto;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    margin-top: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    
-
+  width: 1920px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
 
 .cat1 {
-    align-items: center;
-    justify-content: space-around;
-    padding: auto;
-    margin-top: auto;
-    animation-fill-mode: forwards;
-    animation-iteration-count: unset;
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  justify-content: space-around;
+  padding: auto;
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .footer_linkscatalogo {
-
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-border: 2px black solid;
-padding: 1px 5% 1px 5%;
-font-weight: bold;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px black solid;
+  padding: 1px 5% 1px 5%;
+  font-weight: bold;
+  align-items: center;
 }
-
 
 @media screen and (max-width: 1024px) {
-    #imagenes {
-        width: 300px;
-        height: auto;
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4fr, 150px);
-        grid-template-areas: 
-
-
-            /*COL 1  
-    /*fila1*/"img1"
-    /*fila2*/"img2"
-    /*fila3*/"img3"
-    /*fila4*/"img4"   
-;
-
-    }
+  #imagenes {
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4fr, 150px);
+    grid-template-areas: "img1" "img2" "img3" "img4";
+  }
 }
-
-
 @media screen and (max-width: 480px) {
-    #footer {
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        text-align: center;
-        
-    }
-
-    #footer div {
-        margin-top: 15px;
-    }
+  #footer {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer div {
+    margin-top: 15px;
+  }
 }
-
 .footerRedes a:hover {
-    filter: drop-shadow(10px 5px 3px orange);
-    margin-bottom: 5px;
-    transition: 1.5s;
-    display: flex;
-    
-
+  filter: drop-shadow(10px 5px 3px orange);
+  margin-bottom: 5px;
+  transition: 1.5s;
+  display: flex;
 }
+
+/*# sourceMappingURL=style.css.map */
