@@ -60,14 +60,26 @@
     box-shadow: 10px 15px 6px black;
     transition: 2s;
 }
+
 #navbarNav {
   
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+    padding: 1px 5% 1px 5% orange;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 2% 10%;
+    animation-fill-mode: forwards;
     
   
+  }
+
+  .nav-link {
+    padding-bottom: 5px;
+    margin-right: 5px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 15px 6px black;
+    transition: 2s;
   }
 
