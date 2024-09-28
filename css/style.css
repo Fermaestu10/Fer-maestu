@@ -171,6 +171,14 @@ a {
   transition: 2s;
 }
 
+#navbarNav {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 2% 10%;
+}
+
 #footer {
   width: 1920px;
   width: 100vw;
