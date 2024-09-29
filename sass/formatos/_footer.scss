@@ -136,12 +136,17 @@
         display: flex;
     }
     .footer_linkscontacto {
+       
         display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
         border: 2px black solid;
         padding: 1px 5% 1px 5%;
         font-weight: bold;
         align-items: center;
     
+    }
+
+    .card-d {
+        align-items: center;
+        display: flex;
     }
