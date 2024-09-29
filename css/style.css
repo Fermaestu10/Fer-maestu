@@ -37,7 +37,7 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
-  #Main {
+  #main {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -198,6 +198,10 @@ a {
   transition: 2s;
 }
 
+.contacto-contacto_1 {
+  background-color: orange;
+}
+
 #footer {
   width: 1920px;
   width: 100vw;
@@ -350,30 +354,6 @@ body {
   width: 100%;
 }
 
-.img_logo {
-  width: 200px;
-  height: 90px;
-  filter: drop-shadow(15px 10px 3px orange);
-}
-
-.img_logo {
-  width: 200px;
-  height: 90px;
-  margin: 2% 10%;
-  filter: drop-shadow(15px 10px 3px orange);
-}
-
-.bannerIMG {
-  width: 100%;
-  height: 60vh;
-  position: relative;
-}
-
-#Imagenes .img {
-  width: 100%;
-  height: 100%;
-}
-
 #maincontacto {
   width: 1920px;
   height: auto;
@@ -381,7 +361,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 50px;
   margin-top: auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   animation-fill-mode: forwards;
@@ -395,9 +374,8 @@ body {
   height: 50%;
   border: 0px black solid;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 10% auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  margin: 2% 10%;
   animation-fill-mode: forwards;
 }
 
@@ -408,16 +386,12 @@ body {
   flex-direction: column;
 }
 
-.contacto-contacto_1 {
+.contacto-contacto_1 a:hover {
   width: auto;
   height: auto;
   align-items: center;
   padding: 10px;
   border: 2px;
-}
-
-#imagenes img :nth-child(3) a:hover {
-  color: blue;
 }
 
 #maincomocomprar {
@@ -464,6 +438,34 @@ body {
   animation-iteration-count: unset;
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img_logo {
+  width: 200px;
+  height: 90px;
+  filter: drop-shadow(15px 10px 3px orange);
+}
+
+.img_logo {
+  width: 200px;
+  height: 90px;
+  margin: 2% 10%;
+  filter: drop-shadow(15px 10px 3px orange);
+}
+
+.bannerIMG {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+#Imagenes .img {
+  width: 100%;
+  height: 100%;
+}
+
+#imagenes img :nth-child(3) a:hover {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
