@@ -171,7 +171,7 @@ a {
   transition: 2s;
 }
 
-#navbarNav {
+#navbarNav  {
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
@@ -344,6 +344,13 @@ body {
   filter: drop-shadow(15px 10px 3px orange);
 }
 
+.img_logo {
+  width: 200px;
+  height: 90px;
+  margin: 2% 10%;
+  filter: drop-shadow(15px 10px 3px orange);
+}
+
 .bannerIMG {
   width: 100%;
   height: 60vh;
@@ -447,11 +454,26 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.img_logo {
+.card {
   width: 200px;
   height: 90px;
-  margin: 2% 10%;
   filter: drop-shadow(15px 10px 3px orange);
+ 
+  justify-content: space-around;
+
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
+
+}
+
+.card-d a:hover{
+  align-items: center;
+  justify-content: space-around;
+  padding: auto;
+  margin-top: auto;
+  animation-fill-mode: forwards;
+  animation-iteration-count: unset;
 }
 
 /*# sourceMappingURL=style.css.map */
