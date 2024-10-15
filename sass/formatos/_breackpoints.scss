@@ -89,6 +89,19 @@ grid-area: homero;
     grid-area: bart;
 }
 
+/*TRANSFORMACIONES*/
+
+/* TRANSLATE=
+1- EL PRIMER VALOR, DESPLAZA (ejex)
+2- EL SEGUNDO VALOR, DESPLAZA (EJEy)
+
+                          x         Y
+3-VALORES POSITIVOS:     Derecha   /Abajo
+4-VALORES NEGATIVOS      Izquierda /Arriba                       
+
+
+*/
+
 #imagenes img {
     width: 100%;
     height: 100%;
@@ -111,6 +124,8 @@ grid-area: homero;
     grid-row: 1/2;
     width: 100%;
     height: 100%;
+    transform: translate(-30px , 20px);
+    transition: 1s;
 }
 
 #imagenes .img2 {
@@ -118,6 +133,8 @@ grid-area: homero;
     grid-row: 1/2;
     width: 100%;
     height: 100%;
+    transform: translate(-30px , 20px);
+    transition: 1s;
 }
 
 #imagenes .img3 {
@@ -125,6 +142,8 @@ grid-area: homero;
     grid-row: 1/2;
     width: 100%;
     height: 100%;
+    transform: translate(-30px , 20px);
+    transition: 1s;
 }
 
 #imagenes .img4 {
@@ -132,6 +151,8 @@ grid-area: homero;
     grid-row: 2/2;
     width: 100%;
     height: 100%;
+    transform: translate(-30px , 20px);
+    transition: 1s;
 }
 #maincontacto  {
     width: 1920px;
